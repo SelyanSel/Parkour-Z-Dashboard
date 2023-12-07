@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+
+body, html{
+    background-color: #151515;
+    margin:0;
+    padding:0;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.navbar{
+    background-color: #242424;
+    padding-bottom:20px;
+    padding-top:20px;
+    display:flex;
+    font-size:20px;
+    font-weight: 500;
+}
+
+.navbar>*{
+    padding-left:20px;
+}
+
+.profile{
+    position:absolute;
+    right:0;
+    margin-right:15px;
+}
+
+.pfp{
+    height: 35px;
+    margin-top:-5px;
+    border-radius: 35px;
+    cursor:pointer;
+}
+
+.login {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 65px;
+    bottom: 0;
+    width: 100%; 
+}
+
+.login_panel{
+    color: rgba(255, 255, 255, 0.87);
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-width: 0px;
+    overflow-wrap: break-word;
+    background-clip: border-box;
+    border: 0px solid rgba(0, 0, 0, 0.125);
+    border-radius: 1rem;
+    backdrop-filter: saturate(200%) blur(30px);
+    background-color: rgba(37, 37, 37, 0.8);
+    box-shadow: rgba(48, 48, 48, 0.9) 0rem 0rem 0.0625rem 0.0625rem inset, rgba(0, 0, 0, 0.05) 0rem 1.25rem 1.6875rem 0rem;
+    position: relative;
+    margin-top:50px;
+    margin-left: 48px;
+    margin-right: 48px;
+    padding: 16px;
+    text-align: center;
+    gap:15px;
+}
+
+.title{
+    font-size:16px;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+}
+
+.playmanitybtn{
+    border:0px;
+    border-radius:10px;
+    margin:15px;
+    padding-top:15px;
+    padding-bottom:15px;
+    background-color: #5e62f5;
+    color:white;
+    font-weight: 600;
+    transition:.3s;
+    cursor:pointer;
+    font-family: 'Inter', sans-serif;
+}
+
+.playmanitybtn:hover{
+    background-color: #494ff7;
+}
+
+.textbox{
+    border-radius: 10px;
+    border:0;
+    margin-left:15px;
+    margin-right:15px;
+    padding:10px;
+    background-color: #383838;
+    color:white;
+    transition:.3s;
+    outline:none;
+}
+
+.icon_bttm{
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    text-shadow: rgb(0, 0, 0) 1px 0 10px;
+    display:flex;
+    gap:15px;
+}

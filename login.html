@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parkour Z Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="buttons.css"> <!-- Ported from https://f4r9.com -->
+</head>
+<body>
+    <div class="navbar">
+        <a>Parkour Z Dashboard</a>
+        <div class="profile">
+            <img src="./assets/img/default.jpg" class="pfp">
+        </div>
+    </div>
+    <div class="login">
+        <div class="login_panel">
+            <a class="title">Welcome to the Parkour Z Dashboard!<br>Please log in with Playmanity to continue.</a>
+            <input type="text" class="textbox" id="username" placeholder="Username">
+            <input type="text" class="textbox" id="password" placeholder="Password">
+            <button class="playmanitybtn">Log in with Playmanity</button>
+        </div>
+    </div>
+    <div class="icon_bttm">
+        <button class="glow-on-hover" type="button" style="width: 50px;" onclick="openLink('https://discord.gg/jfeQR5ZwRP')"><img src="assets/discord.png" style="height: 20px;"></button>
+        <button class="glow-on-hover" type="button" style="width: 50px;" onclick="openLink('https://github.com/SelyanSel')"><img src="assets/github.png" style="height: 20px;"></button>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>
