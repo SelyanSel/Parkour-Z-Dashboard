@@ -46,7 +46,17 @@ body, html{
     width: 100%; 
 }
 
-.login_panel{
+.centered {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 65px;
+    bottom: 0;
+    width: 100%; 
+}
+
+.panel{
     color: rgba(255, 255, 255, 0.87);
     transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
     overflow: hidden;
@@ -112,4 +122,31 @@ body, html{
     text-shadow: rgb(0, 0, 0) 1px 0 10px;
     display:flex;
     gap:15px;
+}
+
+.profilename{
+    position: absolute;
+    right:45px;
+    text-align: right;
+    width: fit-content;
+}
+
+.level{
+    padding:55px;
+}
+
+.levels{
+    background-color: blue;
+    display:flex;
+    flex-direction: column;
+    border-radius:10px;
+    width:200px;
+    height:125px;
+    gap:10px;
+}
+
+.level_title{
+    position:absolute;
+    left:0;
+    bottom:0;
 }
